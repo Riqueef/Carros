@@ -1,0 +1,10 @@
+nome_carro = input("Digite o modelo de carro:")
+valor_carro = float(input("Digite o valor do carro:"))
+consumo = float(input("Digite o Consumo por litro do carro:"))
+
+print("----------------")
+print("Especificações do modelo:")
+print(F"Modelo: {nome_carro}")
+print(f"Valor do carro: {valor_carro}")
+print (f"Consumo por litros: {consumo}")
+print("--------------------")
